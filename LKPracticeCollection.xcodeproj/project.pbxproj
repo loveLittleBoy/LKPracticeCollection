@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B60C10A221C497BC00C86981 /* LKCollectionFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B6138A1D21C341F4009D059D /* LKCollectionFlowLayout.m */; };
+		B60C10A521C4A53F00C86981 /* LKSectionColorController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60C10A421C4A53F00C86981 /* LKSectionColorController.m */; };
+		B60FEF6B21C76F51004C78A7 /* LKMoviePostFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B60FEF6A21C76F51004C78A7 /* LKMoviePostFlowLayout.m */; };
+		B60FEF6E21C7716C004C78A7 /* LKMoviePostController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60FEF6D21C7716C004C78A7 /* LKMoviePostController.m */; };
+		B61900C721C8C94700BBA759 /* LKEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61900C621C8C94700BBA759 /* LKEditController.m */; };
+		B61900CA21C8C95E00BBA759 /* LKEditFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B61900C921C8C95E00BBA759 /* LKEditFlowLayout.m */; };
+		B63399AC21C4D18900EDFA69 /* LKWaterFallController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63399AB21C4D18900EDFA69 /* LKWaterFallController.m */; };
+		B63399AF21C4D29000EDFA69 /* LKWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B63399AE21C4D29000EDFA69 /* LKWaterFlowLayout.m */; };
 		B64B886621BA44B600896306 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B886521BA44B600896306 /* AppDelegate.m */; };
 		B64B886921BA44B600896306 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B886821BA44B600896306 /* ViewController.m */; };
 		B64B886C21BA44B600896306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64B886A21BA44B600896306 /* Main.storyboard */; };
@@ -15,6 +23,9 @@
 		B64B887421BA44B900896306 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B887321BA44B900896306 /* main.m */; };
 		B64B887E21BA44B900896306 /* LKPracticeCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B887D21BA44B900896306 /* LKPracticeCollectionTests.m */; };
 		B64B888921BA44B900896306 /* LKPracticeCollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B888821BA44B900896306 /* LKPracticeCollectionUITests.m */; };
+		B64B889821BA44E900896306 /* LKCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B889721BA44E900896306 /* LKCollectionCell.m */; };
+		B68B0DDB21C39A5400C69728 /* LKReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B68B0DDA21C39A5400C69728 /* LKReusableView.m */; };
+		B6FBBB8521C22C9100ED12FC /* LKCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FBBB8421C22C9100ED12FC /* LKCollectionHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B60C10A321C4A53F00C86981 /* LKSectionColorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKSectionColorController.h; sourceTree = "<group>"; };
+		B60C10A421C4A53F00C86981 /* LKSectionColorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKSectionColorController.m; sourceTree = "<group>"; };
+		B60FEF6921C76F51004C78A7 /* LKMoviePostFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKMoviePostFlowLayout.h; sourceTree = "<group>"; };
+		B60FEF6A21C76F51004C78A7 /* LKMoviePostFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKMoviePostFlowLayout.m; sourceTree = "<group>"; };
+		B60FEF6C21C7716C004C78A7 /* LKMoviePostController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKMoviePostController.h; sourceTree = "<group>"; };
+		B60FEF6D21C7716C004C78A7 /* LKMoviePostController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKMoviePostController.m; sourceTree = "<group>"; };
+		B6138A1C21C341F4009D059D /* LKCollectionFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKCollectionFlowLayout.h; sourceTree = "<group>"; };
+		B6138A1D21C341F4009D059D /* LKCollectionFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKCollectionFlowLayout.m; sourceTree = "<group>"; };
+		B61900C521C8C94700BBA759 /* LKEditController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKEditController.h; sourceTree = "<group>"; };
+		B61900C621C8C94700BBA759 /* LKEditController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKEditController.m; sourceTree = "<group>"; };
+		B61900C821C8C95E00BBA759 /* LKEditFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKEditFlowLayout.h; sourceTree = "<group>"; };
+		B61900C921C8C95E00BBA759 /* LKEditFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKEditFlowLayout.m; sourceTree = "<group>"; };
+		B63399AA21C4D18900EDFA69 /* LKWaterFallController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKWaterFallController.h; sourceTree = "<group>"; };
+		B63399AB21C4D18900EDFA69 /* LKWaterFallController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKWaterFallController.m; sourceTree = "<group>"; };
+		B63399AD21C4D29000EDFA69 /* LKWaterFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKWaterFlowLayout.h; sourceTree = "<group>"; };
+		B63399AE21C4D29000EDFA69 /* LKWaterFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKWaterFlowLayout.m; sourceTree = "<group>"; };
 		B64B886121BA44B600896306 /* LKPracticeCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKPracticeCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64B886421BA44B600896306 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B64B886521BA44B600896306 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +78,12 @@
 		B64B888421BA44B900896306 /* LKPracticeCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKPracticeCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64B888821BA44B900896306 /* LKPracticeCollectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKPracticeCollectionUITests.m; sourceTree = "<group>"; };
 		B64B888A21BA44B900896306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B64B889621BA44E900896306 /* LKCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKCollectionCell.h; sourceTree = "<group>"; };
+		B64B889721BA44E900896306 /* LKCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKCollectionCell.m; sourceTree = "<group>"; };
+		B68B0DD921C39A5400C69728 /* LKReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKReusableView.h; sourceTree = "<group>"; };
+		B68B0DDA21C39A5400C69728 /* LKReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKReusableView.m; sourceTree = "<group>"; };
+		B6FBBB8321C22C9100ED12FC /* LKCollectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKCollectionHeaderView.h; sourceTree = "<group>"; };
+		B6FBBB8421C22C9100ED12FC /* LKCollectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKCollectionHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,13 +111,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B60C10A121C4967300C86981 /* NormalSectionBgColor */ = {
+			isa = PBXGroup;
+			children = (
+				B64B889621BA44E900896306 /* LKCollectionCell.h */,
+				B64B889721BA44E900896306 /* LKCollectionCell.m */,
+				B6138A1C21C341F4009D059D /* LKCollectionFlowLayout.h */,
+				B6138A1D21C341F4009D059D /* LKCollectionFlowLayout.m */,
+				B68B0DD921C39A5400C69728 /* LKReusableView.h */,
+				B68B0DDA21C39A5400C69728 /* LKReusableView.m */,
+				B60C10A321C4A53F00C86981 /* LKSectionColorController.h */,
+				B60C10A421C4A53F00C86981 /* LKSectionColorController.m */,
+			);
+			path = NormalSectionBgColor;
+			sourceTree = "<group>";
+		};
+		B60FEF6821C76F18004C78A7 /* MoviePost */ = {
+			isa = PBXGroup;
+			children = (
+				B60FEF6921C76F51004C78A7 /* LKMoviePostFlowLayout.h */,
+				B60FEF6A21C76F51004C78A7 /* LKMoviePostFlowLayout.m */,
+				B60FEF6C21C7716C004C78A7 /* LKMoviePostController.h */,
+				B60FEF6D21C7716C004C78A7 /* LKMoviePostController.m */,
+			);
+			path = MoviePost;
+			sourceTree = "<group>";
+		};
+		B61900C421C8C93200BBA759 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				B61900C521C8C94700BBA759 /* LKEditController.h */,
+				B61900C621C8C94700BBA759 /* LKEditController.m */,
+				B61900C821C8C95E00BBA759 /* LKEditFlowLayout.h */,
+				B61900C921C8C95E00BBA759 /* LKEditFlowLayout.m */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		B63399A921C4D16800EDFA69 /* Whaterfall */ = {
+			isa = PBXGroup;
+			children = (
+				B63399AA21C4D18900EDFA69 /* LKWaterFallController.h */,
+				B63399AB21C4D18900EDFA69 /* LKWaterFallController.m */,
+				B63399AD21C4D29000EDFA69 /* LKWaterFlowLayout.h */,
+				B63399AE21C4D29000EDFA69 /* LKWaterFlowLayout.m */,
+			);
+			path = Whaterfall;
+			sourceTree = "<group>";
+		};
 		B64B885821BA44B600896306 = {
 			isa = PBXGroup;
 			children = (
 				B64B886321BA44B600896306 /* LKPracticeCollection */,
 				B64B887C21BA44B900896306 /* LKPracticeCollectionTests */,
 				B64B888721BA44B900896306 /* LKPracticeCollectionUITests */,
-				B64B886221BA44B600896306 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,15 +176,22 @@
 				B64B888421BA44B900896306 /* LKPracticeCollectionUITests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		B64B886321BA44B600896306 /* LKPracticeCollection */ = {
 			isa = PBXGroup;
 			children = (
+				B61900C421C8C93200BBA759 /* Edit */,
+				B63399A921C4D16800EDFA69 /* Whaterfall */,
+				B60C10A121C4967300C86981 /* NormalSectionBgColor */,
+				B60FEF6821C76F18004C78A7 /* MoviePost */,
 				B64B886421BA44B600896306 /* AppDelegate.h */,
 				B64B886521BA44B600896306 /* AppDelegate.m */,
 				B64B886721BA44B600896306 /* ViewController.h */,
 				B64B886821BA44B600896306 /* ViewController.m */,
+				B6FBBB8321C22C9100ED12FC /* LKCollectionHeaderView.h */,
+				B6FBBB8421C22C9100ED12FC /* LKCollectionHeaderView.m */,
 				B64B886A21BA44B600896306 /* Main.storyboard */,
 				B64B886D21BA44B900896306 /* Assets.xcassets */,
 				B64B886F21BA44B900896306 /* LaunchScreen.storyboard */,
@@ -128,6 +215,7 @@
 			children = (
 				B64B888821BA44B900896306 /* LKPracticeCollectionUITests.m */,
 				B64B888A21BA44B900896306 /* Info.plist */,
+				B64B886221BA44B600896306 /* Products */,
 			);
 			path = LKPracticeCollectionUITests;
 			sourceTree = "<group>";
@@ -262,9 +350,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B61900C721C8C94700BBA759 /* LKEditController.m in Sources */,
+				B60C10A221C497BC00C86981 /* LKCollectionFlowLayout.m in Sources */,
+				B64B889821BA44E900896306 /* LKCollectionCell.m in Sources */,
 				B64B886921BA44B600896306 /* ViewController.m in Sources */,
+				B61900CA21C8C95E00BBA759 /* LKEditFlowLayout.m in Sources */,
 				B64B887421BA44B900896306 /* main.m in Sources */,
+				B60FEF6B21C76F51004C78A7 /* LKMoviePostFlowLayout.m in Sources */,
+				B60C10A521C4A53F00C86981 /* LKSectionColorController.m in Sources */,
+				B63399AC21C4D18900EDFA69 /* LKWaterFallController.m in Sources */,
+				B6FBBB8521C22C9100ED12FC /* LKCollectionHeaderView.m in Sources */,
 				B64B886621BA44B600896306 /* AppDelegate.m in Sources */,
+				B63399AF21C4D29000EDFA69 /* LKWaterFlowLayout.m in Sources */,
+				B68B0DDB21C39A5400C69728 /* LKReusableView.m in Sources */,
+				B60FEF6E21C7716C004C78A7 /* LKMoviePostController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
